@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data_cache/
+# Every experiment/demo run writes its own subdirectory under results/ (the
+# name varies per run) — ignore everything generated, keep only the
+# placeholder that reserves the directory in git.
+results/*
+!results/.gitkeep
+.pytest_cache/
+
+# Real IoT dataset archives (multi-GB, user-supplied) — never committed.
+# See docs/superpowers/specs/2026-08-04-iot-dataset-support-design.md
+ZT-Fedtrust Datasets/
