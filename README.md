@@ -1,5 +1,10 @@
 # ZT-FedTrust — Federated Learning Simulator
 
+> **Team project.** Concept, research design and evaluation plan: **Dinesh Raj P** ([@nextgencoder29](https://github.com/nextgencoder29))  
+> Implementation: **Trefan Kagoo** ([@trefann](https://github.com/trefann))  
+> Original repository with full commit history: https://github.com/trefann/ZT-FedTrust
+
+
 A modular, PyTorch-based simulator for federated learning experiments. It
 simulates multiple clients training locally on private data partitions,
 aggregates their updates on a central server via **FedAvg**, and evaluates
